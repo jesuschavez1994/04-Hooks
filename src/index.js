@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+//import { HomeScreen } from './components/09-useContext/HomeScreen';
+import { MainApp } from './components/09-useContext/MainApp';
+//import { TodoApp } from './components/08-reducer/TodoApp';
 //import { CallBAck } from './components/06-Memo/CallBAck';
 //import { Padre } from './components/07-tarea-memo/Padre';
-import { TodoApp } from './components/08-reducer/TodoApp';
 //import { MemoHook } from './components/06-Memo/MemoHook';
 // import { FormWithCustommHook } from './components/02-useEffects/FormWithCustommHook';
 // import { MultipleCusttomHook } from './components/03-examples/MultipleCusttomHook';
@@ -13,14 +15,14 @@ import { TodoApp } from './components/08-reducer/TodoApp';
 // import { CounterApp } from './components/01-useState/CounterApp';
 // import { CustomHook } from './components/01-useState/CustomHook';
 // import { SimpleForm } from './components/02-useEffects/SimpleForm';
-
 //import Hook from './Hook';
 import './index.css';
+import 'semantic-ui-css/semantic.min.css';
 
 
 
 ReactDOM.render(
-  <TodoApp />,
+  <MainApp />,
   document.getElementById('root')
 );
 
