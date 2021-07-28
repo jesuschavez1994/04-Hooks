@@ -22,6 +22,12 @@ export const useFetch = ( uri ) => {
                     data
                 });
             }
+        }).catch(() => {
+            setstate({
+                data: null, 
+                loadin: false,
+                error: 'No se puedo realizar la petición fetch correctamente'
+            })
         });
    }, [uri])
 

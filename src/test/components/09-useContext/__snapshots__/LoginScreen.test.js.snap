@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <LoginScreen /> debe de mostrar correctamente  1`] = `
+<div>
+  <h1
+    className="ui header"
+  >
+    LoginScreen
+    <div
+      className="sub header"
+    >
+      Sub Header
+    </div>
+  </h1>
+  <button
+    className="ui inverted orange button"
+    onClick={[Function]}
+  >
+    Orange
+  </button>
+</div>
+`;

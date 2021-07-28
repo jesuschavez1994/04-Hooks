@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <ReactExampleRef /> debe de mostrar correctamente  1`] = `
+<Fragment>
+  <h1>
+    ReactExampleRef
+  </h1>
+  <hr />
+  <button
+    className="btn btn-primary mt-5"
+    onClick={[Function]}
+  >
+    Show
+  </button>
+</Fragment>
+`;
+
+exports[`Pruebas en <ReactExampleRef /> should  1`] = `
+<Fragment>
+  <h1>
+    ReactExampleRef
+  </h1>
+  <hr />
+  <button
+    className="btn btn-primary mt-5"
+    onClick={[Function]}
+  >
+    Show
+  </button>
+</Fragment>
+`;

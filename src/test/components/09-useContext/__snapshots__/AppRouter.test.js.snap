@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <AppRouter /> debe de mostrar correctamente  1`] = `
+<div>
+  <div
+    className="ui vertical pointing menu"
+  >
+    <a
+      aria-current="page"
+      className="item active"
+      href="/"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      Home
+    </a>
+    <a
+      aria-current={null}
+      className="item"
+      href="/about"
+      onClick={[Function]}
+    >
+      About
+    </a>
+    <a
+      aria-current={null}
+      className="item"
+      href="/login"
+      onClick={[Function]}
+    >
+      Login
+    </a>
+  </div>
+  Array [
+    <h1
+      className="ui header"
+    >
+      HomeScreen
+      <div
+        className="sub header"
+      >
+        Sub Header
+      </div>
+    </h1>,
+    <pre>
+      {
+   "id": 1,
+   "name": "Jesus"
+}
+    </pre>,
+  ]
+</div>
+`;
